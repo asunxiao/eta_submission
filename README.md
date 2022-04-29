@@ -14,8 +14,9 @@
 6. 通过建立的模型，根据流量特征判断是否是恶意流量
 
 ## 重要特征
+通过RandomForest、AdaBoost、ExtraTrees、GradientBoosting、DecisionTree五种模型混合输出特征重要性，降序排序，选取top30，可视化如下:
 
-
+![Image text](https://github.com/asunxiao/eta_submission/blob/main/1.png)
 ## 运行程序
 train
 ```
